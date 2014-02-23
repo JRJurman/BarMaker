@@ -1,4 +1,4 @@
-# Generates a Bar given a number
+# Generates a Bar given several parameters
 # Created By Jesse Jurman
 
 require 'colorize'
