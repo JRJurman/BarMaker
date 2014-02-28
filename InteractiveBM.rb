@@ -39,8 +39,8 @@ def gen_bar(amount, full, width,
 end
 
 # example
-#puts gen_bar(ARGV[0].to_i, ARGV[1].to_i, ARGV[2].to_i,
-#        "[", "]", :white,
-#        "|", " ", 
-#        [:cyan, :green, :yellow, :red]
-#       )
+puts gen_bar(ARGV[0].to_i, ARGV[1].to_i, ARGV[2].to_i,
+        "[", "]", :white,
+        "|", " ", 
+        [:white, :white, :white, :red]
+       )
